@@ -25,7 +25,7 @@ print(not True)
 
 #as
 import math as myMath
-print(myMath.sin(myMath.pi))
+print(myMath.tan(myMath.pi))
 
 #assert
 assert 5>4

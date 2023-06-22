@@ -38,7 +38,7 @@ for i in range(1,11):
     break
  print(i)
 
- continue
+ #continue
  for i in range(1,8):
     if i == 5:
        continue
@@ -63,7 +63,7 @@ function_name(9) #no output here bcs pass don't produce output
 #del
 a = 19
 print(a)
-del a #error bca a got deleted
+del a #error bcs a got deleted
 
 #if...elif...else
 num = 3

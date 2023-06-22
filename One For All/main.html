@@ -1,0 +1,197 @@
+<!-- will start now -->
+<!DOCTYPE html>
+<!--This is the begning og the one for all-->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="This is content of my website">
+    <meta name="keyword" content="all for one">
+    <title>One For All</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">OneforAll</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Fun Website</a>
+                <a class="dropdown-item" href="#">Usefull website </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">For coders</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    <h1>One For All</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, numquam tenetur cupiditate amet autem
+        sunt<strong>this is strong</strong> deserunt aut, veniam<em>this is emphasizeds</em>nesciunt aliquam
+        <br>reiciendis incidunt in? Voluptate, sed!
+        <hr> Facilis non<b> this is bold</b> itaque quo mollitia.
+    </p>
+    <h2>links</h2> <a href="https://google.com" target="_blank">google</a><br>
+    <a href="https://facebook.com" target="_blank">facebook</a><br>
+    <a href="https://twitter.com" target="_blank">twitter</a><br>
+    <a href="https://linkedin.com" target="_blank">linkedin</a><br>
+    <h3>image</h3> <img src="aryan.jpg" alt="Error loading Image">
+    <img src="https://source.unsplash.com/featured?technology" alt="remote image" width="600" height="566">
+    <h2>List</h2>
+    <ul type="circle">
+        <li>this is first line </li>
+        <li>this is second line </li>
+        <li>
+            <ol>
+                <li>
+                    this is another
+                </li>
+            </ol>
+        </li>
+    </ul>
+    <ol type="I">
+        <li>this is first line</li>
+        <li>this is second line</li>
+        <li>this is third line</li>
+    </ol>
+    <h3> table </h3>
+    <table>
+        <thead>
+            <tr>
+                <th> name</th>
+                <th>profile</th>
+                <th>job</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td style=" border: 1px solid black;">aryan</td>
+                <td style=" border: 1px solid blue;">student</td>
+                <td style=" border: 1px solid red;">freelancer</td>
+            </tr>
+            <tr>
+                <td>ankit</td>
+                <td>student</td>
+                <td>freelancer</td>
+            </tr>
+            <tr>
+                <td>himanshu</td>
+                <td>student</td>
+                <td>freelancer</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <h2>forms</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div> <input type="text" name="myname" id="name"></div><br>
+        <label for="role">Role</label>
+        <div> <input type="text" name="myrole" id="role"></div><br>
+        <div> Email: <input type="text" name="myemail "></div><br>
+        <div>Date: <input type="date" name="my date"></div><br>
+        <div>Bonus: <input type="number" name="mybonus"></div><br>
+        <label for="myeligiblity">Are yor eligible:</label>
+        <div> <input type="checkbox" name="myeligiblity" id="myeligiblity" checked></div><br>
+        <div>Gender: Male <input type="radio" name="mygender">female <input type="radio" name="mygender"></div><br>
+        <div>write about yourself: <textarea name="mytext" cols="10" rows="1"></textarea></div><br>
+        <div><label for="car">Car:</label>
+            <select name="mycar" id="car">
+                <option value="ind" selected>indica</option>
+                <option value="swf">swift</option>
+            </select>
+        </div><br>
+        <div> <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div><br>
+
+    </form>
+    <h2>inline and block element</h2>
+    <strong style="border:2px solid brown;">this paragraph</strong>
+    <span style="border:2px solid brown;">this is also a paragraph</span>
+    <a style="border:2px solid brown;">this is a new para</a>
+    <p style="border:2px solid green;"> this is a new para</p>
+    <em style="border:2px solid brown;">aryan</em>
+    <h2>Ids and classes in html</h2>
+    <div id="maibox" class="greenbg redborder">
+        this is main box
+    </div>
+    <!-- . is for class and # is for id -->
+    <span class="greenbg"></span>
+    <span id="mainspan"></span>
+    <div class="greenbg redborder anotherclass"></div>
+    <!-- emmet takes div as default -->
+    <div class="redborder"></div>
+    <!-- multiple elements using emmet -->
+    <!-- span.myclass.myclass2.myclass3*4 +<tab> -->
+    <span class="myclass myclass2 myclass3">first</span>
+    <span class="myclass myclass2 myclass3">second</span>
+    <span class="myclass myclass2 myclass3">third</span>
+    <span class="myclass myclass2 myclass3">fourth</span>
+    <h2> HTML Entities</h2>
+    <div class="container">
+        <p> this is paragraph is written like this &lt;P&gt;</p>
+    </div>
+    <div class="container">
+        <p> this is another&nbsp; paragraph</p>
+    </div>
+    <h3>Semantic Elements</h3>
+    <details>
+        <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+        A keyboard.
+        <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+        A keyboard.
+        <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+        A keyboard.
+        <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+        A keyboard.
+        <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+        A keyboard.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa impedit rem architecto eos expedita eum doloremque, cumque soluta eaque perspiciatis dolores voluptatibus harum ullam illo provident aut similique id quae! Asperiores dolorem quibusdam non recusandae eveniet repellendus, illo debitis dolor.
+    </details>
+
+
+</body>
+
+</html>

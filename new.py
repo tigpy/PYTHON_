@@ -1,4 +1,4 @@
-superhero=input("what is your superpower? ")
+'''superhero = input("what is your superpower? ")
 print(superhero)
 print("hello" + superhero)
 
@@ -42,7 +42,7 @@ print("thanks")
 #lets make a calculator
 first=input("enter your first number: ")
 operator=input("enter operator(+,-,*,/,%:)")
-second=input("enter youe second number: ")
+second=input("enter your second number: ")
 
 first=int(first)
 second=int(second)
@@ -60,7 +60,7 @@ elif operator == "%":
 else:
     print("invalid operation")
 
-number=range(5)
+number = range(5)
 print(number)
 #loop
 i=1
@@ -74,5 +74,47 @@ while i>=0:
 
 
 for item in range(6):
-    print(item + 1)
+    print(item + 1)'''
+
+#List
+marks = [95,98,97]
+print(marks[1:3])
+
+for score in marks:
+    print(score)
+marks.append(99.54)
+marks.insert(0,99)
+print(marks)
+print(99 in marks)
+print(len(marks))
+
+i = 0
+while i < len(marks):
+    print(marks[i])
+    i = i + 1
+marks.clear()
+print(marks)
+
+#break and continue
+
+students = ["aryan", "himanshu", "shubham", "piyush", "aniket"]
+for student in students:
+    if student == "piyush":
+        break;
+    elif student == "shubham":
+        continue
+
+    print(student)
+
+marks = (95, 98, 97)
+marks[0] = 99
+
+
+
+
+
+
+
+
+
 

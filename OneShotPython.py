@@ -1,4 +1,4 @@
-'''superhero = input("what is your superpower? ")
+superhero = input("what is your superpower? ")
 print(superhero)
 print("hello" + superhero)
 
@@ -74,7 +74,7 @@ while i>=0:
 
 
 for item in range(6):
-    print(item + 1)'''
+    print(item + 1)
 
 #List
 marks = [95,98,97]
@@ -106,8 +106,49 @@ for student in students:
 
     print(student)
 
-marks = (95, 98, 97)
-marks[0] = 99
+#Tuple
+marks = (95, 98, 97, 97, 97)
+print(marks.count(97))
+print(marks.index(95))
+#[],(),{} = list,tuple,sets
+person = "ram", "sam", "abhi"
+print(person)
+#Dictionary
+marks = {95, 98, 97, 99}#sets don't have index (unordered)
+for score in marks:
+    print(score)
+marks = {"english" : 95, "chemistry" : 96}
+print(marks["chemistry"])
+marks["physics"] = 97;
+print(marks)
+
+marks["physics"] = 99;
+print(marks)
+
+#Functions
+#1. In-built Function
+int(), bool(), str()
+
+#2. Module Function
+import math
+print(dir(math))
+from math import sqrt
+print(sqrt(16))
+from math import * #"*" will import all function.
+print(sqrt(78))
+#3. User-defined function
+def print_sum(first, second=4):
+    print(first + second)
+
+print_sum(1)
+
+
+
+
+
+
+
+
 
 
 

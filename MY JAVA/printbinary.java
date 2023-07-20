@@ -8,7 +8,7 @@ public class printbinary
     {
         Scanner sc=new Scanner(System.in);
 
-        sc.useRadix(8);
+        sc.useRadix(2);
         int X=sc.nextInt();
 
         System.out.println(X);

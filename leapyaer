@@ -1,6 +1,0 @@
-# ifelse
-year = input("write days of the year")
-if year==366:
-       print("this is a leap year")
-elif year<366:
-       print("this is a not leap year")
